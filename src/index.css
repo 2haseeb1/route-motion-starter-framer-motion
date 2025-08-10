@@ -1,0 +1,19 @@
+/* Tailwind CSS v4 entry */
+
+
+@import "tailwindcss";
+
+/* বেস লেআউট */
+:root {
+    color-scheme: light dark;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    @apply bg-gray-50 text-gray-900;
+}
